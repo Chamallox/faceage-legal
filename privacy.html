@@ -3,66 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FaceAge - Skin Analysis — Privacy Policy</title>
+    <title>Privacy Policy — FaceAge</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a1a; max-width: 720px; margin: 0 auto; padding: 40px 24px; }
-        h1 { font-size: 28px; margin-bottom: 8px; }
-        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
-        p, li { font-size: 15px; color: #333; margin-bottom: 12px; }
-        ul { padding-left: 24px; }
-        .date { color: #888; font-size: 14px; margin-bottom: 32px; }
-        a { color: #007AFF; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            line-height: 1.75;
+            color: #1a1a1a;
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+        .header {
+            padding: 48px 24px 32px;
+            text-align: center;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .header .icon {
+            width: 48px;
+            height: 48px;
+            background: #f5f5f5;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 22px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #000;
+        }
+        .header .app-name {
+            font-size: 13px;
+            font-weight: 500;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+        }
+        .header .date {
+            font-size: 13px;
+            color: #aaa;
+            margin-top: 8px;
+        }
+        .content {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        h2 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #000;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        p {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        strong { color: #1a1a1a; }
+        a { color: #000; text-decoration: underline; text-underline-offset: 2px; }
+        a:hover { color: #555; }
+        .card {
+            background: #fafafa;
+            border: 1px solid #f0f0f0;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+        .card p { margin-bottom: 8px; }
+        .card p:last-child { margin-bottom: 0; }
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid #f0f0f0;
+            font-size: 13px;
+            color: #bbb;
+        }
+        .disclaimer {
+            background: #000;
+            color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 24px 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p class="date">Last updated: April 4, 2026</p>
+    <div class="header">
+        <div class="icon">🔬</div>
+        <div class="app-name">FaceAge — Skin Analysis</div>
+        <h1>Privacy Policy</h1>
+        <div class="date">Last updated April 4, 2026</div>
+    </div>
 
-    <p>FaceAge - Skin Analysis ("we", "our", or "the app") respects your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
+    <div class="content">
+        <p>FaceAge respects your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
 
-    <h2>1. Data We Collect</h2>
-    <p><strong>Photos:</strong> When you take a selfie for analysis, the photo is sent to OpenAI's API for processing. We do not store your photos on our servers. Photos remain on your device and are only transmitted for the duration of the analysis.</p>
-    <p><strong>Profile Information:</strong> Your gender, age, and skin concerns are collected during onboarding to personalize your analysis. This data is stored locally on your device.</p>
-    <p><strong>Usage Data:</strong> We may collect anonymous analytics data (screen views, feature usage) to improve the app experience. This data cannot be used to identify you personally.</p>
-    <p><strong>Purchase Data:</strong> Subscription and purchase information is managed by Apple and RevenueCat. We do not have access to your payment details.</p>
+        <h2>Data We Collect</h2>
 
-    <h2>2. How We Use Your Data</h2>
-    <ul>
-        <li>To provide AI-powered face analysis using your selfie and profile information</li>
-        <li>To generate personalized skincare recommendations</li>
-        <li>To track your progress over time (stored locally on your device)</li>
-        <li>To improve app performance and user experience through anonymous analytics</li>
-    </ul>
+        <div class="card">
+            <p><strong>Photos</strong> — When you take a selfie for analysis, the photo is sent to OpenAI's API for processing. We do not store your photos on our servers. Photos remain on your device and are only transmitted for the duration of the analysis.</p>
+        </div>
+        <div class="card">
+            <p><strong>Profile Information</strong> — Your gender, age, and skin concerns are collected during onboarding to personalize your analysis. This data is stored locally on your device.</p>
+        </div>
+        <div class="card">
+            <p><strong>Usage Data</strong> — We may collect anonymous analytics data to improve the app. This data cannot identify you personally.</p>
+        </div>
+        <div class="card">
+            <p><strong>Purchases</strong> — Subscription and purchase information is managed entirely by Apple and RevenueCat. We never see your payment details.</p>
+        </div>
 
-    <h2>3. Third-Party Services</h2>
-    <p>We use the following third-party services:</p>
-    <ul>
-        <li><strong>OpenAI:</strong> Processes your selfie to generate face analysis results. Subject to <a href="https://openai.com/privacy">OpenAI's Privacy Policy</a>.</li>
-        <li><strong>RevenueCat:</strong> Manages subscriptions and purchases. Subject to <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</li>
-        <li><strong>Firebase (Google):</strong> Provides analytics and data storage. Subject to <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
-    </ul>
+        <h2>How We Use Your Data</h2>
+        <ul>
+            <li>To provide AI-powered face analysis using your selfie and profile</li>
+            <li>To generate personalized skincare recommendations</li>
+            <li>To track your progress over time (stored locally)</li>
+            <li>To improve app performance through anonymous analytics</li>
+        </ul>
 
-    <h2>4. Data Storage and Security</h2>
-    <p>Your scan history and profile data are stored locally on your device using iOS secure storage. We do not maintain a central database of user photos or personal information. When you delete the app, all local data is removed.</p>
+        <h2>Third-Party Services</h2>
+        <p>We use the following services to power the app:</p>
+        <ul>
+            <li><strong>OpenAI</strong> — Processes your selfie to generate analysis. <a href="https://openai.com/privacy">Privacy Policy</a></li>
+            <li><strong>RevenueCat</strong> — Manages subscriptions. <a href="https://www.revenuecat.com/privacy">Privacy Policy</a></li>
+            <li><strong>Firebase</strong> — Analytics and storage. <a href="https://firebase.google.com/support/privacy">Privacy Policy</a></li>
+        </ul>
 
-    <h2>5. Your Rights</h2>
-    <ul>
-        <li><strong>Delete your data:</strong> You can delete all your data from within the app (Settings → Delete Account) or by uninstalling the app.</li>
-        <li><strong>Opt out of analytics:</strong> You can decline analytics tracking when prompted by iOS.</li>
-        <li><strong>Access your data:</strong> All your data is visible within the app. There is no hidden data collection.</li>
-    </ul>
+        <h2>Data Storage & Security</h2>
+        <p>Your scan history and profile data are stored locally on your device using iOS secure storage. We do not maintain a central database of user photos or personal information. When you delete the app, all local data is removed.</p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>FaceAge is not intended for children under 13. We do not knowingly collect personal information from children.</p>
+        <h2>Your Rights</h2>
+        <div class="card">
+            <p><strong>Delete your data</strong> — Settings → Delete Account, or uninstall the app.</p>
+            <p><strong>Opt out of analytics</strong> — Decline tracking when prompted by iOS.</p>
+            <p><strong>Access your data</strong> — All data is visible within the app.</p>
+        </div>
 
-    <h2>7. AI Disclaimer</h2>
-    <p>FaceAge uses artificial intelligence to analyze facial features. Results are for entertainment and informational purposes only. The app is not a medical device and does not provide medical advice. Consult a dermatologist for personalized treatment recommendations.</p>
+        <h2>Children's Privacy</h2>
+        <p>FaceAge is not intended for children under 13. We do not knowingly collect personal information from children.</p>
 
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this privacy policy from time to time. Changes will be reflected in the "Last updated" date above.</p>
+        <div class="disclaimer">
+            FaceAge uses artificial intelligence to analyze facial features. Results are for entertainment and informational purposes only. This is not a medical device and does not provide medical advice.
+        </div>
 
-    <h2>9. Contact</h2>
-    <p>If you have questions about this privacy policy, contact us at <a href="mailto:support@faceage.app">support@faceage.app</a>.</p>
+        <h2>Changes</h2>
+        <p>We may update this policy from time to time. Changes will be reflected in the date above.</p>
+
+        <h2>Contact</h2>
+        <p>Questions? Reach us at <a href="mailto:support@faceage.app">support@faceage.app</a></p>
+    </div>
+
+    <div class="footer">© 2026 FaceAge. All rights reserved.</div>
 </body>
 </html>
